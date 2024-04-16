@@ -6,8 +6,9 @@
 
 <script setup>
 definePageMeta({
-    layout:'exibicao'
-})
+  layout: "exibicao",
+  middleware: ["video","auth"],
+});
 </script>
 
 <style lang="scss" scoped></style>
